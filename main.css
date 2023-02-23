@@ -1,0 +1,58 @@
+#container {
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(196, 194, 194);
+}
+
+.bar {
+    width: 10px;
+    background-color: black;
+    margin: 1px;
+}
+
+#initialize {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#initialize:hover {
+    background-color:darkblue
+}
+
+#play {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#play:hover {
+    background-color:darkblue
+}
+
+#instructions {
+    margin-top:50px;
+    font-size:larger;
+    font-weight: bold;
+}
